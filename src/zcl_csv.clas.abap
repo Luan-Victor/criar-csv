@@ -93,9 +93,9 @@ CLASS ZCL_CSV IMPLEMENTATION.
         ENDIF.
 
 * Exception example
-*        IF <fcat>-fieldname = 'DTEMISNC'.
-*          <fcat>-datatype = 'DATS'.
-*        ENDIF.
+        IF <fcat>-fieldname = 'DTEMISNC'.
+          <fcat>-datatype = 'DATS'.
+        ENDIF.
 
 * Convert to currency format
         zcl_value=>to_currency_format(
@@ -162,6 +162,8 @@ CLASS ZCL_CSV IMPLEMENTATION.
         MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno
                    WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4.
       ENDIF.
+
+      CHECK e_path IS NOT INITIAL.
 
       cl_gui_frontend_services=>gui_download(
         EXPORTING
