@@ -28,9 +28,27 @@
     </SEOCOMPOTX>
     <SEOCOMPOTX>
      <CLSNAME>ZCL_CSV</CLSNAME>
+     <CMPNAME>GT_FCAT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Catálogo de campos para controle visor de listas</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CSV</CLSNAME>
+     <CMPNAME>GT_TABLE_DATA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Código para visão standard</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CSV</CLSNAME>
      <CMPNAME>SAVE</CMPNAME>
      <LANGU>P</LANGU>
      <DESCRIPT>Salva arquivo CSV com caixa de diálogo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CSV</CLSNAME>
+     <CMPNAME>SAVE_AS_XLS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Salva arquivo como XLS</DESCRIPT>
     </SEOCOMPOTX>
    </DESCRIPTIONS>
   </asx:values>
